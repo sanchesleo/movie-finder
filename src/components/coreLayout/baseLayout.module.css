@@ -1,0 +1,46 @@
+.mainContainer{
+    background-color: #373F47;
+    height: 85vh;
+    width: 100vw;
+    padding: 5rem 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box1{
+    margin-right: auto;
+    background-color: #C4C4C4;
+    height: 70vh;
+    width:12vw;
+}
+
+.boxMiddle{
+    background-color: #C4C4C4;
+    height: 70vh;
+    width:60vw;
+}
+
+
+.box3{
+    margin-left: auto;
+    background-color: #C4C4C4;
+    height: 70vh;
+    width:12vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .box1, .box3{
+        display: none;
+    }
+
+    .boxMiddle{
+        width: 80vw;
+    }
+}

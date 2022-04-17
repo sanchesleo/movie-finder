@@ -1,0 +1,53 @@
+
+
+
+.mainContent{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100%;
+}
+
+.mainContentTitle {
+    font-family: 'Philosopher', sans-serif;
+    margin-bottom: auto;
+}
+
+.mainContent button{
+    position: relative;
+    bottom: 30px;
+}
+
+.mainContentlogoWrapper{
+    background: #373F47;
+    border-radius: 50%;
+    padding: 6%;
+}
+
+.mainContentLogo{
+    filter: invert(85%) sepia(0%) saturate(28%) hue-rotate(242deg) brightness(95%) contrast(90%);
+    width: 190px;
+    cursor: pointer;
+    
+}
+
+.mainContentLogo:hover{
+    filter: invert(66%) sepia(67%) saturate(537%) hue-rotate(6deg) brightness(92%) contrast(91%);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .mainContent{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    .mainContentLogo{
+        width: 100px;
+    }
+    
+}

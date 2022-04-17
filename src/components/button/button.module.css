@@ -1,0 +1,18 @@
+.buttonGeneralStyle{
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    box-shadow: 5px 10px 10px #888888;
+    background:#c4c4c4;
+    color: #C4c4c4;
+    background: linear-gradient(to left, #373F47 50%, #C4C4C4 50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
+
+
+.buttonGeneralStyle:hover,
+.buttonGeneralStyle:focus {
+    background-position: left;
+    color: #373F47;
+
+}

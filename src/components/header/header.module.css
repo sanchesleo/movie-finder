@@ -1,0 +1,20 @@
+header{
+    height: 15vh;
+    background-color: #6C91C2;
+    width: 100vw;
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo{
+    width: 7rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .logo{
+        width: 5rem;
+    }
+    
+}

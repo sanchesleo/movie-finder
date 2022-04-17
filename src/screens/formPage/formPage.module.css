@@ -1,0 +1,44 @@
+
+
+
+.mainContent{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100%;
+}
+
+.mainContentTitle {
+    font-family: 'Philosopher', sans-serif;
+    margin-bottom: auto;
+}
+
+.mainContent button{
+    position: relative;
+    bottom: 30px;
+}
+
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.q2{
+    margin-top: 2rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .mainContent{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    
+}
