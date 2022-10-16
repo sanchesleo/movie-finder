@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import styles from './button.module.css'
 
-const Button = ({children, fontSize, marginTop, color, backgroundColor, padding, borderColor, pageName,type}) => {
+const Button = ({children, fontSize, marginTop, color, backgroundColor, padding, borderColor, pageName,type, ...props}) => {
   const navigate = useNavigate();
 
   function sendTo(){
@@ -25,7 +25,7 @@ const Button = ({children, fontSize, marginTop, color, backgroundColor, padding,
             marginTop: marginTop,
         }
     }
-    onClick={sendTo}
+    {...props}
     >
         {children}
     </button>

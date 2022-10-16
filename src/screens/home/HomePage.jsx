@@ -3,8 +3,14 @@ import { ReactComponent as Logo } from '../../assets/logo.svg'
 import Button from '../../components/button/Button'
 import BaseLayout from '../../components/coreLayout/BaseLayout'
 import styles from './homepage.module.css'
+import { useNavigate } from 'react-router-dom'
 
 const HomePage = () => {
+  const navigate = useNavigate();
+  function sendTo(pageName){
+    const path = pageName;
+    navigate(path);
+  }
   return (
     <BaseLayout>
       <div className={styles.mainContent}>
@@ -20,7 +26,7 @@ const HomePage = () => {
             padding="2% 12%"
             marginTop="auto"
             borderColor="#373F47"
-            pageName={'/form-page'}
+            onClick={() =>sendTo('form-page')}
           >
             Vamos lá
             
