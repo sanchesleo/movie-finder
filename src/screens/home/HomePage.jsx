@@ -23,7 +23,7 @@ const HomePage = () => {
         
           <Button
             fontSize="1.8rem"
-            padding="2% 12%"
+            padding="1% 12%"
             marginTop="auto"
             borderColor="#373F47"
             onClick={() =>sendTo('form-page')}

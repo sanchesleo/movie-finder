@@ -36,6 +36,12 @@
     filter: invert(66%) sepia(67%) saturate(537%) hue-rotate(6deg) brightness(92%) contrast(91%);
 }
 
+@media only screen and (max-width: 1500px) {
+    .mainContentLogo{
+        width: 140px;
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
 
