@@ -39,6 +39,8 @@ const FormPage = () => {
       
       const responseData = await axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_MOVIE_FINDER_API_KEY}&with_genres=${feelingGender},${desireGender}`);
       const allMovies = responseData.data.results;
+
+      console.log(allMovies);
     }
   }
 

@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+main button{
+    margin-bottom: auto;
+}
+
+.resultContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resultContainer p {
+    width: 55%;
+    max-height: 400px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.containerRating{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.containerRating img{
+    border: 5px solid #373F47;
+    filter: drop-shadow(0 0 0.75rem crimson);
+    width: 100%;
+    max-width: 195px;
+}
+
+.containerRating p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.movieRating{
+    color: #D3AB1B;
+}
