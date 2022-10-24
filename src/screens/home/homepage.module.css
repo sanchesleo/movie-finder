@@ -4,8 +4,9 @@
 .mainContent{
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
+    min-height: 70vh;
     height:100%;
 }
 
